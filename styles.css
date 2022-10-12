@@ -219,25 +219,24 @@ footer a{
     @media screen and (max-width:480px){
         .burger-nav{
             display: block;
-            height: 40px;
-            width: 100%;
-            background-size: 50px;
+            height: 36px;
+            width: 102%;
             background: url(images/burger.png) no-repeat 98% center;
             background-color: #404040;
             cursor: pointer;
+            background-size: 50px;
+
         }
         header .wrapper{
             width: 100%;
             padding: 0;
-
         }
         header nav ul{
             overflow: hidden;
-            background-color: #505050;
-            height: 0;
+            background: #505050;
+            height:0;
         }
-
-        header nav ul.open{
+        header  nav ul.open{
             height: auto;
         }
         header nav ul li{
@@ -245,7 +244,9 @@ footer a{
             text-align: left;
             width: 100%;
             margin: 0;
+
         }
+
         header nav ul li a{
             color: #fff;
             padding: 10px;
@@ -253,8 +254,6 @@ footer a{
             display: block;
             margin: 0;
         }
-
-
         #featured li{
             width: 90%;
             margin: 20px 5%;
@@ -273,8 +272,6 @@ footer a{
             width: 180%;
             left: -40%;
         }
-        
-
     }
 
   
